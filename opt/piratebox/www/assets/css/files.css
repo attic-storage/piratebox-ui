@@ -1,0 +1,36 @@
+.n {
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-bottom:5px;
+}
+
+.s {
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-bottom:5px;
+}
+
+.m {
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-bottom:5px;
+}
+
+.t {
+    margin-right: 10px;
+    padding-bottom:5px;
+}
+
+.list {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    z-index: 0;
+}
+
+.list > .list {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:none;
+    padding:0px;
+}

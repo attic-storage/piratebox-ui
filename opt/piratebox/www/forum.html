@@ -2,7 +2,7 @@
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="utf-8">
-        <title>PirateBox - share freely</title>
+        <title>PirateBox - Forum</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Le styles -->
@@ -24,9 +24,9 @@
                     <div class="container">
                         <a class="brand" href="/index.html">Pirate Box</a>
                         <ul class="nav">
-                            <li class="active"><a href="/index.html">Bienvenue</a></li>
+                            <li class=""><a href="/index.html">Bienvenue</a></li>
                             <li class=""><a href="/Shared">Fichiers</a></li>
-                            <li class=""><a href="/forum.html">Forum</a></li>
+                            <li class="active"><a href="/forum.html">Forum</a></li>
                             <li class=""><a href="/chat.html">Chat</a></li>
                             <li class=""><a href="/READ.ME.html">A propos</a></li>
                         </ul>
@@ -34,21 +34,17 @@
                 </div>
             </div>
 
-            <div class="row main_row">
-                <div class="span4">
-                    <img src="piratebox-logo.png" alt="Pirate Box">
+            <div class="row">
+                <div id="presentation" class="span12">
+                    <img class="bs-icon" src="assets/img/glyphicons/glyphicons_061_keynote.png">
+                    <h2>Forum</h2>
+                    <p>Ce forum est un BBS (bulletin board system ou système de bulletins électroniques en français) anonyme de partage de messages et de fichiers.</p>
+                    <p>Pour laisser un message, vous pouvez utiliser <a href="#board">le module</a> ci-dessous ou accéder à <a href="/board">cette page</a>.</p>
                 </div>
-                <div class="span8 presentation">
-                    <dl class="dl-horizontal">
-                        <dt>projet</dt>
-                        <dd>en apprendre plus sur <a href="/READ.ME.html">PirateBox</a>,</dd>
-                        <dt>partage</dt>
-                        <dd>pour commencer, vous pouvez utiliser ce <a href="/Shared#share">module</a>.</dd>
-                        <dt>t&eacute;l&eacute;chargement</dt>
-                        <dd><a href="/Shared"/>lister et t&eacute;l&eacute;charger</a> les fichiers.</dd>
-                        <dt>discussions</dt>
-                        <dd>via le <a href="/chat.html">chat</a> ou via le <a href="/forum.html">forum</a>.<br>
-                    </dl>
+            </div>
+            <div class="row">
+                <div id="board" class="span12">
+                    <iframe height='800px' width='100%' frameBorder='0' src='/board'></iframe> 
                 </div>
             </div>
 
