@@ -4,7 +4,8 @@
             <div class="row">
                 <div id="share" class="span12">
                     <img class="bs-icon" src="../assets/img/glyphicons/glyphicons_358_file_import.png">
-                    <h2>Partager</h2>
+                    <h2>Partager un fichier</h2>
+                    <p>Ne quittez pas la page pendant l'envoi du fichier.</p>
                     <iframe width='100%' height='75px' scrolling=no frameBorder='0' src='http://piratebox.lan:8080'>Your browser does not supprt Iframes.. If you want to upload something, follow this <a href='http://piratebox.lan:8080'>Link</a></iframe>
                 </div>
             </div>
