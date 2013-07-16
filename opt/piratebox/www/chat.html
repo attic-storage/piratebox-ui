@@ -23,11 +23,16 @@
                 <div class="span12">
                     <form method="POST" action="/cgi-bin/psowrte.py" target="psoread" name="psowrte" onsubmit="setTimeout('reset()', 10)" class="well form-inline">
                         <div>
-                            <label class="label label-inverse">Noir</label><input type="radio" value="def" name="color" checked>
-                            <label class="label label-info">Bleu</label><input type="radio" value="blue" name="color">
-                            <label class="label label-success">Vert</label><input type="radio" value="green" name="color">
-                            <label class="label label-warning">Orange</label><input type="radio" value="orange" name="color">
-                            <label class="label label-important">Rouge</label><input type="radio" value="red" name="color">
+                            <label for="color-def" class="label label-inverse">Noir</label>
+                            <input id="color-def" type="radio" value="def" name="color" checked>
+                            <label for="color-blue" class="label label-info">Bleu</label>
+                            <input id="color-blue" type="radio" value="blue" name="color">
+                            <label for="color-green" class="label label-success">Vert</label>
+                            <input id="color-green" type="radio" value="green" name="color">
+                            <label for="color-orange" class="label label-warning">Orange</label>
+                            <input id="color-orange" type="radio" value="orange" name="color">
+                            <label for="color-red" class="label label-important">Rouge</label>
+                            <input id="color-red" type="radio" value="red" name="color">
                         </div>
                         <input type="text" value="anonymous" name="name" class="input-medium" id="name" placeholder="Pseudo"></input>                
                         <input type="text" value="" name="data" class="input-xxlarge" id="data" placeholder="Texte"></input>               
